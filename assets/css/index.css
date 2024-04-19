@@ -23,6 +23,9 @@
   --lorem-color: #fff;
   --line-color: #242526;
 }
+html{
+  scroll-behavior: smooth;
+}
 .box li:hover a {
   background-color: #fe5300;
   color: #fff;
@@ -35,6 +38,8 @@
   align-items: center;
   padding-top: 26px;
   padding-bottom: 26px;
+  position: fixed;
+  width: 100%;
   background-color: var(--primery-color);
 }
 
